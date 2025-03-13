@@ -18,17 +18,17 @@ test.describe('Test Case: Module Home', () => {
         await homePage.verifyHomePageBanner("360 Marketing Digital Solution with WiFi & Customer Insight");
       });
 
-      test('User ingin melihat Wifi Advertising', async () => {
+      test('User ingin pelajari lebih lanjut tentang Wifi Advertising', async () => {
         await homePage.clickWifiAdBtn();
         await navigationBar.verifyNavigateToURL('https://higo.id/wifi-advertising');
       });
 
-      test('User ingin melihat Higo Spot', async () => {
+      test('User ingin pelajari lebih lanjut tentang Higo Spot', async () => {
         await homePage.clickHigoSpotBtn();
         await navigationBar.verifyNavigateToURL('https://higo.id/higospot');
       });
 
-      test('User ingin melihat Integrated Digital Agency', async () => {
+      test('User ingin pelajari lebih lanjut tentang Integrated Digital Agency', async () => {
         await homePage.clickIDABtn();
         await navigationBar.verifyNavigateToURL('https://higo.id/integrated-digital-agency');
       });
